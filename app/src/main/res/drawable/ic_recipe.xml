@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Cuchara -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="@color/eco_text_dark"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M10,3c2,0 3,1.5 3,3c0,2 -2,4 -3,4S7,8 7,6c0,-1.5 1,-3 3,-3z"/>
+
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="@color/eco_text_dark"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M10,10v10"/>
+
+    <!-- Olla pequeña detrás -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="@color/eco_text_light"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M16,10h4v5c0,2 -1,3 -3,3s-3,-1 -3,-3v-5z"/>
+
+</vector>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eco_bg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- FOTO DE PERFIL CIRCULAR -->
+        <ImageView
+            android:id="@+id/imgPerfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_person"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_bg"
+            android:padding="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- BOTÓN EDITAR PERFIL (SOLO UNA VEZ) -->
+        <Button
+            android:id="@+id/btnEditarPerfil"
+            android:text="Editar Perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/eco_green"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- NOMBRE -->
+        <TextView
+            android:id="@+id/tvNombreUsuario"
+            android:text="Nombre del usuario"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/eco_text_dark"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- EMAIL -->
+        <TextView
+            android:id="@+id/tvCorreoUsuario"
+            android:text="correo@ejemplo.com"
+            android:textSize="15sp"
+            android:textColor="@color/eco_text_light"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- FECHA REGISTRO -->
+        <TextView
+            android:id="@+id/tvFechaRegistro"
+            android:text="Registrado el: 2025-10-01"
+            android:textSize="14sp"
+            android:textColor="@color/eco_text_light"
+            android:layout_marginBottom="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- PROGRESO ECO -->
+        <TextView
+            android:text="Nivel ECO"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/eco_text_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:id="@+id/progresoEco"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="250dp"
+            android:layout_height="16dp"
+            android:progress="60"
+            android:max="100"
+            android:progressTint="@color/eco_green"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- BOTÓN CAMBIAR CONTRASEÑA -->
+        <Button
+            android:id="@+id/btnCambiarPass"
+            android:text="Cambiar Contraseña"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/eco_blue"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- BOTÓN CERRAR SESIÓN -->
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:text="Cerrar sesión"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/eco_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

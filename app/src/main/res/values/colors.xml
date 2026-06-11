@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Paleta ecológica -->
+    <color name="eco_bg">#F5F3E8</color>
+    <color name="eco_card">#FFFFFF</color>
+    <color name="eco_green">#4CAF50</color>
+    <color name="eco_red">#D32F2F</color>
+    <color name="eco_blue">#1976D2</color>
+    <color name="eco_green_dark">#2E7D32</color>
+    <color name="eco_green_light">#A5D6A7</color>
+
+    <!-- Texto -->
+    <color name="eco_text_dark">#2F3E2F</color>
+    <color name="eco_text_light">#6B7A6B</color>
+
+    <!-- Campos -->
+    <color name="eco_input_border">#6FAF7A</color>
+
+    <!-- Botón -->
+    <color name="eco_button_bg">#4CAF50</color>
+    <color name="eco_button_text">#FFFFFF</color>
+
+    <!-- =============================
+         COLORES ANTIGUOS (para evitar errores)
+       ============================= -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

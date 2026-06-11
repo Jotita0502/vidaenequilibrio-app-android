@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eco_bg"
+    android:padding="16dp">
+
+    <!-- TÍTULO -->
+    <TextView
+        android:id="@+id/tvTituloRecetas"
+        android:text="Recetas saludables"
+        android:textColor="@color/eco_text_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- BUSCADOR -->
+    <EditText
+        android:id="@+id/edtBuscarReceta"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="🔍 Buscar receta..."
+        android:padding="10dp"
+        android:background="@drawable/bg_search"
+        android:layout_below="@id/tvTituloRecetas"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/eco_text_dark"
+        android:textColorHint="@color/eco_text_light" />
+
+    <!-- LOADING -->
+    <ProgressBar
+        android:id="@+id/progressRecetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <!-- LISTA -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRecetas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/edtBuscarReceta"
+        android:layout_marginTop="10dp"
+        android:clipToPadding="false"
+        android:paddingBottom="60dp"/>
+
+    <!-- MENSAJE SIN DATOS -->
+    <TextView
+        android:id="@+id/tvVacio"
+        android:text="Aún no hay recetas 😕"
+        android:textColor="@color/eco_text_light"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

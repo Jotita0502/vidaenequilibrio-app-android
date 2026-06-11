@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_inventario"
+        android:icon="@drawable/ic_inventory"
+        android:title="Inventario" />
+
+    <item
+        android:id="@+id/menu_recetas"
+        android:icon="@drawable/ic_recipe"
+        android:title="Recetas" />
+
+    <item
+        android:id="@+id/menu_metricas"
+        android:icon="@drawable/ic_stats"
+        android:title="Métricas" />
+
+    <item
+        android:id="@+id/menu_perfil"
+        android:icon="@drawable/ic_user"
+        android:title="Perfil" />
+</menu>
